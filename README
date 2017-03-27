@@ -1,4 +1,5 @@
 $ git clone https://github.com/xyind/TL-WN727N-Linux.git
 $ cd TL-WN727N-Linux-master
 $ make
-# modprobe mac80211
+$ sudo modprobe mac80211
+$ sudo insmod ./mt7601u.ko
